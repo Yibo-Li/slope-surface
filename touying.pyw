@@ -25,7 +25,7 @@ class MyFrame(wx.Frame):
     input5="245"
     input6="45"
     def __init__(self,parent,id):
-        wx.Frame.__init__(self,parent,id,u"赤平投影图绘制程序 @李轶博",size=(355,570),style=wx.DEFAULT_FRAME_STYLE ^ (wx.RESIZE_BORDER | wx.MAXIMIZE_BOX))
+        wx.Frame.__init__(self,parent,id,u"赤平投影图绘制软件",size=(355,570),style=wx.DEFAULT_FRAME_STYLE ^ (wx.RESIZE_BORDER | wx.MAXIMIZE_BOX))
         panel=wx.Panel(self,-1)
         panel.SetBackgroundColour("White")
         

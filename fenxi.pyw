@@ -27,7 +27,7 @@ class MyFrame(wx.Frame):
     Dia=[]
     Id=0
     def __init__(self,parent,id):
-        wx.Frame.__init__(self,parent,id,u"结构面统计分析软件系统 @李轶博 http://blog.liyibo.org/",size=(750,530),style=wx.DEFAULT_FRAME_STYLE ^ (wx.RESIZE_BORDER | wx.MAXIMIZE_BOX))
+        wx.Frame.__init__(self,parent,id,u"结构面统计分析软件",size=(750,530),style=wx.DEFAULT_FRAME_STYLE ^ (wx.RESIZE_BORDER | wx.MAXIMIZE_BOX))
         panel=wx.Panel(self,-1)
         panel.SetBackgroundColour("White")
         #添加按钮
